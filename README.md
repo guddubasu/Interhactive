@@ -12,7 +12,7 @@ Overview
 
  
 Takeaways from the project
-	For designing this project,we had to learn about basic web designing with HTML,CSS,JS. We also learnt about Framework making using Node.js and .json. We learned about backend We learned about photo editing which was required in editing of the images. We also learnt about collaboration and teamwork which is very required in the making of the project and in every field of life. We also increased our presentation skills by presenting the project.
+	For designing this project,we had to learn about basic web designing with HTML,CSS,JS. We also learnt about Framework making using Node.js and .json. We learned about backend We learned about photo editing which was required in editing of the images. We also learnt about collaboration and teamwork which is very required in the making of the project and in every field of life.We learned about project deployment using netlify. We also increased our presentation skills by presenting the project.
 
 
  
