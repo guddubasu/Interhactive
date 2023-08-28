@@ -731,6 +731,10 @@ span{
     font-weight: 600;
 }
 <!--footer-->
+.footer
+{
+    background-color:black
+}
 .footer .box-container .box .content p{
     colour:(--light-colour);
     font-size: 1.5rem;
