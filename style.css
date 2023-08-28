@@ -730,7 +730,7 @@ span{
     font-size: 18px;
     font-weight: 600;
 }
-
+<!--footer-->
 .footer .box-container .box .content p{
     colour:(--light-colour);
     font-size: 1.5rem;
@@ -797,3 +797,4 @@ color: var(--green);
         transition: all .2s ease-out;
         text-decoration: none;
     }
+<!--footer-->
