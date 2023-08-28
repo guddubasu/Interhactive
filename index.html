@@ -187,7 +187,36 @@
         </section>
     </section>
 
-<!--footer-->
+
+	
+    <div id="contact_us_page">
+        <section class="contact-container" id="contact">
+            <div class="video-content">
+              <video autoplay="" loop="" muted="" >
+                <source src="assets/med-vid.mp4.mp4" type="video/mp4">
+              </video>
+              <div class="contact-form">
+                <h3 class="heading">Contact Us</h3>
+                <form action="phpadmin.php" class="contacts" name="contacts" id="contacts" onsubmit="return isTrue()" method="post">
+                  <label for="Username">Name:</label>
+                  <input type="text" name="Username" id="Username" required oninvalid="validation()" oninput="validation()">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required oninvalid="validation()" oninput="validation()">
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" required oninvalid="validation()" oninput="validation()"></textarea>
+                  <button type="submit" onclick="isTrue()">Submit</button>
+                </form>
+              </div>
+            </div>   
+            <div class="copyright">
+        <p><i class="fa-solid fa-copyright"></i>All Copyright  Reserved by @GreenMedica. Team</p>
+    </div>
+          </section>
+      
+    
+    </div>
+   
+	<!--footer-->
 	<section class="footer">
     <div class="box-container">
         <div class="box">
@@ -224,35 +253,6 @@
           <a href="#"><i class="fa-brands fa-linkedin-in"></i>linkedin</a>  
         </div>
 <!--footer-->
-	
-    <div id="contact_us_page">
-        <section class="contact-container" id="contact">
-            <div class="video-content">
-              <video autoplay="" loop="" muted="" >
-                <source src="assets/med-vid.mp4.mp4" type="video/mp4">
-              </video>
-              <div class="contact-form">
-                <h3 class="heading">Contact Us</h3>
-                <form action="phpadmin.php" class="contacts" name="contacts" id="contacts" onsubmit="return isTrue()" method="post">
-                  <label for="Username">Name:</label>
-                  <input type="text" name="Username" id="Username" required oninvalid="validation()" oninput="validation()">
-                  <label for="email">Email:</label>
-                  <input type="email" id="email" name="email" required oninvalid="validation()" oninput="validation()">
-                  <label for="message">Message:</label>
-                  <textarea id="message" name="message" required oninvalid="validation()" oninput="validation()"></textarea>
-                  <button type="submit" onclick="isTrue()">Submit</button>
-                </form>
-              </div>
-            </div>   
-            <div class="copyright">
-        <p><i class="fa-solid fa-copyright"></i>All Copyright  Reserved by @GreenMedica. Team</p>
-    </div>
-          </section>
-      
-    
-    </div>
-   
-
 
 
     
