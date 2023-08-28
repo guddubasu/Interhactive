@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <!-- <script src="script.js"></script> -->
+</head>
+<body>
+    <nav >
+        <div class="container">
+            <div class="logo">
+                <img src="./assets/Rectangle 6.png" alt="logo"/>
+                <h2> GreenMedica.</h2>
+            </div>
+
+            <ul>
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">About Us</a></li>
+                <li> <a href="#">Services</a> </li>
+                <li ><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="login">
+                <button class="loginbtn" onclick="document.getElementById('login-form').style.display='block'"style="width:auto;">Login</button>
+                <button onclick="document.getElementById('login-form').style.display='block'"style="width:auto;">Get Started ➟</button>
+            </div>
+        </div>
+        
+    </nav>
+    <!------ Nav end------>
+   
+    <div id="login-form" class="login-page">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" onclick="login()" class="toggle-btn">Log In</button>
+                <button type="button" onclick="register()" class="toggle-btn">Register</button>
+            </div>
+            <form id="login" class="input-group-login">
+                <input type="text" class="input-field" placeholder="Email Id" required>
+                <input type="password" class="input-field" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box"><span>Remember Password</span>
+                <button type="submit" class="submit-btn">Log In</button>
+            </form>
+
+            <form id="register" class="input-group-register">
+                <input type="text" class="input-field"placeholder="First Name" required>
+                <input type="text" class="input-field"placeholder="Last Name" required>
+                <input type="email" class="input-field"placeholder="Email Id" required>
+                <input type="password" class="input-field"placeholder="Password" required>
+                <input type="password" class="input-field"placeholder="Confirm Password" required>
+                
+                <input type="text"class="input-field" name="country code" value="+91"size="1"/>
+                <input type="text"class="input-field" name="phone" size="10"required/>
+                
+                <input type="checkbox" class="check-box"><span>I agree to the terms and conditions</span>
+                <button type="submit" class="submit-btn">Register</button>
+
+            </form>
+
+        </div>
+    </div>
+    <!----------- Form part end  ------------->
+
+    <div class = "bodypart">
+        <div class="write">
+            <p class="top">
+                Connect, Consult and Care Remotely
+            </p>
+            <h1 class="mid">
+                Better HealthCare Better Tomorrow
+            </h1>
+            <p class="bottom">
+                If You are in Need Of High-quality, Professional and Friendly Dental Care,   Look no Further than Our Clinic
+            </p>
+            <div class="img">
+                <a href="./index.html"><img src="assets/Group 5.png"   alt="SORRY!!! You are unable now">
+                </a>
+                <a class="vdo" href="http://">
+                    <img src="assets/Group 3.png" alt="Video">
+                </a>
+                
+            </div>
+            <div class="imgtwo">
+                
+                <img src="assets/Group 4.png" alt="">
+                
+                
+            </div>
+
+
+                
+
+        </div>
+        <div class="image">
+            <img class="mainimg" src="assets/Rectangle 3.png" alt="">
+            <img class="doctor" src="./assets/Group 1.png" alt="">
+            <img class="client" src="./assets/Group 2.png" alt="">
+        </div>        
+    </div>
+            <!--------------- index page end ------------------>
+    <div class="side-view">
+        <section id="about">
+            <div class="about-img">
+                <img src="./assets/Picsart_23-08-27_19-34-53-730.png"medic">
+            </div>
+    
+            <div class="about-text">
+                <h2>Brief story of Our Clinic</h2>
+                <p> GreenMedica's state-of-the-art facilities and advanced technology showcased their commitment to delivering the highest quality of care. It was evident that GreenMedica's invests in providing the best resources to both patients and medical professionals, ensuring a seamless and effective healthcare journey.</p>
+            <!-- ===Client num=== -->
+                <div class="about-box-container">
+                    <div class="about-box-1 point">
+                        <strong>500+</strong>
+                        <h4>Happy Patients</h4>
+                    </div>
+    
+                    <div class="about-box-2 point">
+                        <strong>50+</strong>
+                        <h4>Expert Doctors</h4>
+                    </div>
+                    
+                    <div class="about-box-3 point">
+                        <strong>25+</strong>
+                        <h4>Locations</h4>
+                    </div>
+                
+                    <div class="about-box-4 point">
+                        <strong>15+</strong>
+                        <h4>Medical Facilities</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <!-- =========Services======== -->
+    <!-- <section class="section_container service_container">
+        <div class="service__header">
+          <div class="service_header_content">
+            <h2 class="section__header">Our Special service</h2>
+            <p>
+              Beyond simply providing medical care, our commitment lies in
+              delivering unparalleled service tailored to your unique needs.
+            </p>
+          </div>
+          <button class="service__btn">Ask A Service</button>
+        </div>
+        <div class="service__grid">
+          <div class="service__card">
+            <span><i class="ri-microscope-line"></i></span>
+            <h4>Laboratory Test</h4>
+            <p>
+              Accurate Diagnostics, Swift Results: Experience top-notch Laboratory
+              Testing at our facility.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div class="service__card">
+            <span><i class="ri-mental-health-line"></i></span>
+            <h4>Health Check</h4>
+            <p>
+              Our thorough assessments and expert evaluations help you stay
+              proactive about your health.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div class="service__card">
+            <span><i class="ri-hospital-line"></i></span>
+            <h4>General Dentistry</h4>
+            <p>
+              Experience comprehensive oral care with Dentistry. Trust us to keep
+              your smile healthy and bright.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+    </section> -->
+       
+    
+
+
+
+    
+    <script>
+		var x=document.getElementById('login');
+		var y=document.getElementById('register');
+		var z=document.getElementById('btn');
+		function register()
+		{
+			x.style.left='-400px';
+			y.style.left='50px';
+			z.style.left='110px';
+
+		}
+		function login()
+		{
+			x.style.left='50px';
+			y.style.left='450px';
+			z.style.left='0px';
+		}
+
+	</script>
+
+
+	<script>
+		var modal = document.getElementById('login-form');
+		window.onclick = function(event)
+		{
+			if (event.target == modal)
+			{
+				modal.style.display = "none";			
+			}
+		}
+	</script>
+    <!-- <script>
+        document.getElementsByClassName("")
+    </script> -->
+
+
+    <!-- <script>
+        $(". login loginbtn").click(function () {
+            $(".login-page form-box").toggle("slow");
+            return false;
+        });
+    </script> -->
+
+
+    <!-- <script>
+        document.querySelector("#loginbtn").addEventListener("click",function() {
+            document.querySelector(".login-page").classList.add("active");
+        });
+    </script> -->
+
+    <script>
+        sr.reveal('.write.mid',{delay:200, origin:'top'});
+        sr.reveal('assets/Rectangle 3.png',{delay:450, origin: 'top'});
+    </script>
+
+</body>
+</html>
