@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>GreenMedica</title>
     <!-- <script src="script.js"></script> -->
 </head>
 <body>
@@ -17,9 +17,9 @@
 
             <ul>
                 <li> <a href="#">Home</a></li>
-                <li> <a href="#">About Us</a></li>
-                <li> <a href="#">Services</a> </li>
-                <li ><a href="#">Contact Us</a></li>
+                <li> <a href="#side-view">About Us</a></li>
+                <li> <a href="#section_container">Services</a> </li>
+                <li ><a href="#contact_us_page">Contact Us</a></li>
             </ul>
             <div class="login">
                 <button class="loginbtn" onclick="document.getElementById('login-form').style.display='block'"style="width:auto;">Login</button>
@@ -94,13 +94,13 @@
 
         </div>
         <div class="image">
-            <img class="mainimg" src="assets/Rectangle 3.png" alt="">
-            <img class="doctor" src="./assets/Group 1.png" alt="">
-            <img class="client" src="./assets/Group 2.png" alt="">
+            <img class="mainimg" src="assets/Picsart_23-08-28_13-00-06-217.png" alt="">
+            <!-- <img class="doctor" src="./assets/Group 1.png" alt="">
+            <img class="client" src="./assets/Group 2.png" alt=""> -->
         </div>        
     </div>
             <!--------------- index page end ------------------>
-    <div class="side-view">
+    <div id="side-view">
         <section id="about">
             <div class="about-img">
                 <img src="./assets/Picsart_23-08-27_19-34-53-730.png"medic">
@@ -136,49 +136,77 @@
 
     </div>
     <!-- =========Services======== -->
-    <!-- <section class="section_container service_container">
-        <div class="service__header">
-          <div class="service_header_content">
-            <h2 class="section__header">Our Special service</h2>
-            <p>
-              Beyond simply providing medical care, our commitment lies in
-              delivering unparalleled service tailored to your unique needs.
-            </p>
-          </div>
-          <button class="service__btn">Ask A Service</button>
-        </div>
-        <div class="service__grid">
-          <div class="service__card">
-            <span><i class="ri-microscope-line"></i></span>
-            <h4>Laboratory Test</h4>
-            <p>
-              Accurate Diagnostics, Swift Results: Experience top-notch Laboratory
-              Testing at our facility.
-            </p>
-            <a href="#">Learn More</a>
-          </div>
-          <div class="service__card">
-            <span><i class="ri-mental-health-line"></i></span>
-            <h4>Health Check</h4>
-            <p>
-              Our thorough assessments and expert evaluations help you stay
-              proactive about your health.
-            </p>
-            <a href="#">Learn More</a>
-          </div>
-          <div class="service__card">
-            <span><i class="ri-hospital-line"></i></span>
-            <h4>General Dentistry</h4>
-            <p>
-              Experience comprehensive oral care with Dentistry. Trust us to keep
-              your smile healthy and bright.
-            </p>
-            <a href="#">Learn More</a>
-          </div>
-        </div>
-    </section> -->
+    <section id="section_container">
+        <section class="service_container">
+            <div class="service_header">
+              <div class="service_header_content">
+                <h1 class="section__header">Our Special service</h1>
+                <p>
+                  Beyond simply providing medical care, our     commitment lies in
+                  delivering unparalleled service tailored to   your unique needs with 24/7 emergency room and trauma care and
+                  Immediate medical attention for critical conditions
+                </p>
+              </div>
+              <button class="service__btn">Ask A Service </button>
+            </div>
+            <div class="service__grid">
+              <div class="service__card">
+                <span><i class="ri-microscope-line"></i></span>
+                <h2>Laboratory Test</h2>
+                <p>
+                  Accurate Diagnostics, Swift Results:  Experience top-notch Laboratory
+                  Testing at our facility.
+                </p>
+                <a href="#">Learn More</a>
+              </div>
+              <div class="service__card">
+                <span><i class="ri-mental-health-line"></i> </span>
+                <h2>Health Check</h2>
+                <p>
+                  Our thorough assessments and expert   evaluations help you stay
+                  proactive about your health.
+                </p>
+                <a href="#">Learn More</a>
+              </div>
+              <div class="service__card">
+                <span><i class="ri-hospital-line"></i></span>
+                <h2>General Dentistry</h2>
+                <p>
+                  Experience comprehensive oral care with  Dentistry. Trust us to keepyour smile healthy and bright.
+                </p>
+                <a href="#">Learn More</a>
+              </div>
+            </div>
+        </section>
+    </section>
        
+    <div id="contact_us_page">
+        <section class="contact-container" id="contact">
+            <div class="video-content">
+              <video autoplay="" loop="" muted="" >
+                <source src="assets/med-vid.mp4.mp4" type="video/mp4">
+              </video>
+              <div class="contact-form">
+                <h3 class="heading">Contact Us</h3>
+                <form action="phpadmin.php" class="contacts" name="contacts" id="contacts" onsubmit="return isTrue()" method="post">
+                  <label for="Username">Name:</label>
+                  <input type="text" name="Username" id="Username" required oninvalid="validation()" oninput="validation()">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required oninvalid="validation()" oninput="validation()">
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" required oninvalid="validation()" oninput="validation()"></textarea>
+                  <button type="submit" onclick="isTrue()">Submit</button>
+                </form>
+              </div>
+            </div>   
+            <div class="copyright">
+        <p><i class="fa-solid fa-copyright"></i>All Copyright  Reserved by @GreenMedica. Team</p>
+    </div>
+          </section>
+      
     
+    </div>
+   
 
 
 
@@ -214,24 +242,7 @@
 			}
 		}
 	</script>
-    <!-- <script>
-        document.getElementsByClassName("")
-    </script> -->
-
-
-    <!-- <script>
-        $(". login loginbtn").click(function () {
-            $(".login-page form-box").toggle("slow");
-            return false;
-        });
-    </script> -->
-
-
-    <!-- <script>
-        document.querySelector("#loginbtn").addEventListener("click",function() {
-            document.querySelector(".login-page").classList.add("active");
-        });
-    </script> -->
+   
 
     <script>
         sr.reveal('.write.mid',{delay:200, origin:'top'});
